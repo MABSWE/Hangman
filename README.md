@@ -41,11 +41,18 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 - The game ends when either you correctly guess the word or reach 7 incorrect guesses.
 
 #### Rules
-
+- The game randomly selects a word from the predefined word pool.
+- You have to guess the letters of the word to reveal it.
+- You are allowed 7 incorrect guesses before the game ends.
+- Input must be a single letter.
 
 
 #### Game Controls
-
+- Enter your letter guesses when prompted.
+- The game will display the current state of the word, the letters guessed, and the hangman figure.
+- If you correctly guess a letter, it will be revealed in the word.
+- If you incorrectly guess a letter, the hangman figure will progress.
+- The game ends when either you correctly guess the word or reach 7 incorrect guesses.
 
 
 ## Features
