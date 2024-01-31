@@ -78,7 +78,7 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 - No Remaining Bugs left.
 
 ## Validator Testing
-
+- PEP8 was used as a validator with 13 bugs as a result.
 ## Deployment
 
 ## Credits
