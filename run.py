@@ -129,5 +129,6 @@ if(randomWord[current_guess_index] == letterGuessed):
     print_hangman(amount_of_times_wrong)
     current_letters_right = printWord(current_letters_guessed)
     printLines()
-    
+
+print("Game Over ")
     
