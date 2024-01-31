@@ -4,7 +4,10 @@ print("Welcome to Hangman!")
 print("--------------------")
 
 # Random words
-wordPulp = ["monkey", "apple", "computer", "tank", "helicopter", "carrot", "sunshine", "elevator"]
+wordPulp = [
+    "monkey", "apple", "computer", "tank",
+    "helicopter", "carrot", "sunshine", "elevator"
+]
 
 # Choose a random word
 randomWord = random.choice(wordPulp)
@@ -14,15 +17,15 @@ for x in randomWord:
     print("_", end=" ")
 
 # Hangman design when wrong
-def print_hangman(wrong):
-    if wrong == 0:
-        print("\n----")
-        print("     |")
-        print("     |")
-        print("     |")
-        print("     |")
-        print("     |")
-        print("   -----")
+    def print_hangman(wrong):
+        if wrong == 0:
+            print("\n----")
+            print("     |")
+            print("     |")
+            print("     |")
+            print("     |")
+            print("     |")
+            print("   -----")
     elif wrong == 1:
         print("\n----")
         print("  |  |")
@@ -59,7 +62,7 @@ def print_hangman(wrong):
         print("\n----")
         print("  |  |")
         print("  O  |")
-        print(" /|\ |")
+        print(" /|| |")
         print("     |")
         print("     |")
         print("   -----")
@@ -67,7 +70,7 @@ def print_hangman(wrong):
         print("\n----")
         print("  |  |")
         print("  O  |")
-        print(" /|\ |")
+        print(" /|| |")
         print(" /   |")
         print("     |")
         print("   -----")
@@ -75,14 +78,14 @@ def print_hangman(wrong):
         print("\n----")
         print("  |  |")
         print("  O  |")
-        print(" /|\ |")
-        print(" / \ |")
+        print(" /|| |")
+        print(" / | |")
         print("     |")
         print("   -----")
 
 # Print underscores and letters
-def printWord(guessedLetters):
-    rightLetters = 0
+        def printWord(guessedLetters):
+            rightLetters = 0
     for char in randomWord:
         if char in guessedLetters:
             print(char, end=" ")
@@ -92,8 +95,8 @@ def printWord(guessedLetters):
     return rightLetters
 
 # Display words underscore
-def printUnderscores():
-    print("\r")
+    def printUnderscores():
+        print("\r")
     for char in randomWord:
         print("\u203E", end=" ")
 
@@ -107,16 +110,17 @@ current_letters_guessed = []
 current_letters_right = 0
 
 # Loop
-while (amount_of_times_wrong != 7 and current_letters_right != length_of_word_to_guess):
+while (amount_of_times_wrong != 7 and
+       current_letters_right != length_of_word_to_guess):
     print("\nLetters guessed: ")
 for letter in current_letters_guessed:
     print(letter, end=" ")
-    
+
 # Request input from the user
 letterGuessed = input("\nGuess a letter: ")
 
 # See if guessed letter is correct
-if(randomWord[current_guess_index] == letterGuessed):
+if (randomWord[current_guess_index] == letterGuessed):
     print_hangman(amount_of_times_wrong)
     current_guess_index += 1
     current_letters_guessed.append(letterGuessed)
