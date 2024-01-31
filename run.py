@@ -115,3 +115,11 @@ while (amount_of_times_wrong != 7 and current_letters_right != length_of_word_to
 # Request input from the user
 letterGuessed = input("\nGuess a letter: ")
 
+# See if guessed letter is correct
+if(randomWord[current_guess_index] == letterGuessed):
+    print_hangman(amount_of_times_wrong)
+    current_guess_index += 1
+    current_letters_guessed.append(letterGuessed)
+    current_letters_right = printWord(current_letters_guessed)
+    printLines()
+    
