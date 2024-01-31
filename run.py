@@ -109,7 +109,7 @@ current_letters_right = 0
 # Loop
 while (amount_of_times_wrong != 7 and current_letters_right != length_of_word_to_guess):
     print("\nLetters guessed: ")
-  for letter in current_letters_guessed:
+for letter in current_letters_guessed:
     print(letter, end=" ")
     
 # Request input from the user
@@ -123,7 +123,7 @@ if(randomWord[current_guess_index] == letterGuessed):
     current_letters_right = printWord(current_letters_guessed)
     printLines()
     # If not
-    else:
+else:
     amount_of_times_wrong += 1
     current_letters_guessed.append(letterGuessed)
     print_hangman(amount_of_times_wrong)
@@ -131,4 +131,3 @@ if(randomWord[current_guess_index] == letterGuessed):
     printLines()
 
 print("Game Over ")
-    
