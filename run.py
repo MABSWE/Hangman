@@ -12,3 +12,14 @@ randomWord = random.choice(wordPulp)
 # Underscores for characters
 for x in randomWord:
     print("_", end=" ")
+
+# Hangman design when wrong
+def print_hangman(wrong):
+    if(wrong) == 0):
+        print("\n----")
+        print("     |")
+        print("     |")
+        print("     |")
+        print("     |")
+        print("     |")
+        print("   -----")
