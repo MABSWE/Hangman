@@ -99,3 +99,9 @@ def printUnderscores():
 
 # Lenght of word
 length_of_word_to_guess = len(randomWord)
+
+# Initialize
+amount_of_times_wrong = 0
+current_guess_index = 0
+current_letters_guessed = []
+current_letters_right = 0
