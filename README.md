@@ -1,31 +1,71 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hangman
 
-Welcome USER_NAME,
+Welcome to the Hangman game! Test your word-guessing skills and try to uncover the hidden word.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
 
-## Reminders
+**Developer: Marat Akbar Boyev**
+[Visit live website](link goes here)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+# Table of Contents
 
-## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- [How to Play Hangman](#how-to-play-hangman)
+    - [Rules](#rules)
+    - [Game Controls](#game-controls)
 
-1. `heroku/python`
-2. `heroku/nodejs`
+- [Features](#features)
+    - [Existing Features](#existing-features)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+- [Data Model](#data-model)
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- [Testing](#testing)
+    - [Bugs](#bugs)
+        - [Solved Bugs](#solved-bugs)
+        - [Remaining Bugs](#remaining-bugs)
 
-Connect your GitHub repository and deploy as normal.
+- [Validator Testing](#validator-testing)
 
-## Constraints
+- [Deployment](#deployment)
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- [Credits](#credits)
 
------
-Happy coding!
+## How to play Hangman
+
+Welcome to Hangman! This is a simple implementation of the classic Battleship game in Python.
+
+
+- Enter your letter guesses when prompted.
+- The game will display the current state of the word, the letters guessed, and the hangman figure.
+- If you correctly guess a letter, it will be revealed in the word.
+- If you incorrectly guess a letter, the hangman figure will progress.
+- The game ends when either you correctly guess the word or reach 7 incorrect guesses.
+
+#### Rules
+
+
+
+#### Game Controls
+
+
+
+## Features
+
+### Existing Features
+
+## Data Model
+
+## Testing
+
+### Bugs
+
+#### Solved Bugs
+
+### Remaining Bugs
+
+## Validator Testing
+
+## Deployment
+
+## Credits
+
+
