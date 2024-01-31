@@ -111,3 +111,7 @@ while (amount_of_times_wrong != 7 and current_letters_right != length_of_word_to
     print("\nLetters guessed: ")
   for letter in current_letters_guessed:
     print(letter, end=" ")
+    
+# Request input from the user
+letterGuessed = input("\nGuess a letter: ")
+
