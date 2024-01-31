@@ -58,16 +58,24 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 ## Features
 
 ### Existing Features
+- Random selection of words from a predefined word pool.
+- Visual representation of the hangman figure.
+- Display of the current state of the word and guessed letters.
 
 ## Data Model
+- The game uses a list of predefined words as the word pool.
+- The chosen word is randomly selected from this pool.
 
 ## Testing
 
 ### Bugs
+- The game was tested using PEP8 with a result of 13 errors and warnings. Mostly was blank lines problems and other whitespacing as you can see here: ADD IMG
 
 #### Solved Bugs
+- Bugs were fixed by adding correct indentation, spacing between codes and too long coding text.
 
 ### Remaining Bugs
+- No Remaining Bugs left.
 
 ## Validator Testing
 
