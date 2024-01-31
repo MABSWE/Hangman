@@ -108,3 +108,6 @@ current_letters_right = 0
 
 # Loop
 while (amount_of_times_wrong != 7 and current_letters_right != length_of_word_to_guess):
+    print("\nLetters guessed: ")
+  for letter in current_letters_guessed:
+    print(letter, end=" ")
