@@ -96,3 +96,6 @@ def printUnderscores():
     print("\r")
     for char in randomWord:
         print("\u203E", end=" ")
+
+# Lenght of word
+length_of_word_to_guess = len(randomWord)
