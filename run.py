@@ -91,4 +91,8 @@ def printWord(guessedLetters):
             print("_", end=" ")
     return rightLetters
 
-    
+# Display words underscore
+def printUnderscores():
+    print("\r")
+    for char in randomWord:
+        print("\u203E", end=" ")
