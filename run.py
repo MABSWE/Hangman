@@ -79,3 +79,16 @@ def print_hangman(wrong):
         print(" / \ |")
         print("     |")
         print("   -----")
+
+# Print underscores and letters
+def printWord(guessedLetters):
+    rightLetters = 0
+    for char in randomWord:
+        if char in guessedLetters:
+            print(char, end=" ")
+            rightLetters += 1
+        else:
+            print("_", end=" ")
+    return rightLetters
+
+    
