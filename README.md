@@ -79,8 +79,16 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 
 ## Validator Testing
 - PEP8 was used as a validator with 13 bugs as a result.
-## Deployment
 
+## Deployment
+This project was deployed using Code Institutes mock terminal for Heroku.
+- Steps for deployment:
+    - Fork or clone this repository
+    - Create a new Heroku app
+    - Set the buildbacks to Python and NodeJS in that order
+    - Link the Heroku app to the repository
+    - Click on Deploy
+    
 ## Credits
 
 
