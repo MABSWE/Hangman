@@ -4,7 +4,8 @@ Welcome to the Hangman game! Test your word-guessing skills and try to uncover t
 
 
 **Developer: Marat Akbar Boyev**
-[Visit live website](link goes here)
+
+[Visit live website](https://hangmanpp3.onrender.com)
 
 # Table of Contents
 
@@ -67,6 +68,10 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 - The chosen word is randomly selected from this pool.
 
 ## Testing
+I conducted manual testing on this project, which involved the following steps:
+
+- Ran the code through a PEP8 linter to ensure there are no issues.
+- Tested the project in both my local terminal and the Code Institute Render terminal.
 
 ### Bugs
 - The game was tested using PEP8 with a result of 13 errors and warnings. Mostly was blank lines problems and other whitespacing as you can see here: ADD IMG
@@ -81,14 +86,20 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 - PEP8 was used as a validator with 13 bugs as a result.
 
 ## Deployment
-This project was deployed using Code Institutes mock terminal for Heroku.
-- Steps for deployment:
-    - Fork or clone this repository
-    - Create a new Heroku app
-    - Set the buildbacks to Python and NodeJS in that order
-    - Link the Heroku app to the repository
-    - Click on Deploy
+This project was deployed using Code Institutes mock terminal for Render.
+1. Create an account on Render at [render.com](https://render.com).
+
+2. Connect your GitHub, GitLab, or Bitbucket repository to Render.
+
+3. Specify build settings like build command and directory.
+
+4. Click "Create Web Service" to initiate deployment.
+
+5. Once deployed, access your project via the provided URL.
     
 ## Credits
+Special thanks to:
+- My mentor, whose guidance and insights have been invaluable throughout the development of this project.
 
+- A big shoutout to the supportive members of the Slack community who provided assistance, feedback, and encouragement.
 
