@@ -125,6 +125,11 @@ while (amount_of_times_wrong != 7 and
 # Request input from the user
     letterGuessed = input("\nGuess a letter: ")
 
+# Check if letter already used
+    if letterGuessed in current_letters_guessed:
+        print("You already guessed this letter", letterGuessed)
+        continue
+
 # See if guessed letter is correct
     if (randomWord[current_guess_index] == letterGuessed):
         print_hangman(amount_of_times_wrong)
