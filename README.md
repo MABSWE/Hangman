@@ -70,6 +70,10 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 
 ![Screenshot](images/guessed.JPG)
 
+- Display the congratulation message when the whole word is guessed correct.
+
+![Screenshot](images/win.JPG)
+
 
 
 ## Data Model
