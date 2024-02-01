@@ -19,7 +19,7 @@ for x in randomWord:
 # Hangman design when wrong
     def print_hangman(wrong):
         if wrong == 0:
-            print("\n----")
+            print("\n  ----")
             print("     |")
             print("     |")
             print("     |")
