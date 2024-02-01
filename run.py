@@ -138,4 +138,7 @@ while (amount_of_times_wrong != 7 and
         current_letters_right = printWord(current_letters_guessed)
         printUnderscores()
 
+    if current_letters_right == length_of_word_to_guess:
+        print("Congratulations! You guessed the word!:", randomWord)
+
 print("Game Over ")
