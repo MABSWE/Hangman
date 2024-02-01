@@ -7,6 +7,8 @@ Welcome to the Hangman game! Test your word-guessing skills and try to uncover t
 
 [Visit live website](https://hangmanpp3.onrender.com)
 
+![Screenshot](images/mockup.JPG)
+
 # Table of Contents
 
 
@@ -61,7 +63,14 @@ Welcome to Hangman! This is a simple implementation of the classic Battleship ga
 ### Existing Features
 - Random selection of words from a predefined word pool.
 - Visual representation of the hangman figure.
+
+![Screenshot](images/figure.JPG)
+
 - Display of the current state of the word and guessed letters.
+
+![Screenshot](images/guessed.JPG)
+
+
 
 ## Data Model
 - The game uses a list of predefined words as the word pool.
@@ -74,7 +83,7 @@ I conducted manual testing on this project, which involved the following steps:
 - Tested the project in both my local terminal and the Code Institute Render terminal.
 
 ### Bugs
-- The game was tested using PEP8 with a result of 13 errors and warnings. Mostly was blank lines problems and other whitespacing as you can see here: ADD IMG
+- The game was tested using PEP8 with a result of 13 errors and warnings. Mostly was blank lines problems and other whitespacing. ![Screenshot](images/errors.JPG)
 
 #### Solved Bugs
 - Bugs were fixed by adding correct indentation, spacing between codes and too long coding text.
