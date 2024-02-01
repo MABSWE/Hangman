@@ -83,7 +83,9 @@ I conducted manual testing on this project, which involved the following steps:
 - Tested the project in both my local terminal and the Code Institute Render terminal.
 
 ### Bugs
-- The game was tested using PEP8 with a result of 13 errors and warnings. Mostly was blank lines problems and other whitespacing. ![Screenshot](images/errors.JPG)
+- The game was tested using PEP8 with a result of 13 errors and warnings. Mostly was blank lines problems and other whitespacing.
+
+![Screenshot](images/errors.JPG)
 
 #### Solved Bugs
 - Bugs were fixed by adding correct indentation, spacing between codes and too long coding text.
